@@ -36,17 +36,18 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>Spring-Servlet</servlet-name>
-    <url-pattern>*.do</url-pattern>
+    <!--<url-pattern>*.do</url-pattern>-->
+    <url-pattern>/</url-pattern>
   </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>Spring-Servlet</servlet-name>
-    <url-pattern>*.shtml</url-pattern>
-  </servlet-mapping>
+  <!--<servlet-mapping>-->
+    <!--<servlet-name>Spring-Servlet</servlet-name>-->
+    <!--<url-pattern>*.shtml</url-pattern>-->
+  <!--</servlet-mapping>-->
   <!--启动时页面（欢迎页面）-->
  <!-- <welcome-file-list>
     <welcome-file>view/login.jsp</welcome-file>
   </welcome-file-list>-->
   <welcome-file-list>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
   </welcome-file-list>
 </web-app>

@@ -5,6 +5,10 @@ package py.blog.base.commons;
 /**
  * Created by Tang_sihang on 2016/7/15 0015.
  */
+
+/**
+ * 常量
+ */
 public class Constants {
     /**
      * 网易IM 常量

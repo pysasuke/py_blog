@@ -248,21 +248,23 @@
                                 <div class="col-md-8 col-sm-8">
                                     <div class="box-content">
                                         <h3 class="widget-title">Send Me A Message</h3>
-                                        <form class="contact-form" action="/blog/test.do" method="post">
+                                        <%--<form class="contact-form" action="/blog/test.do" method="get">--%>
+                                        <form class="contact-form" id="contact-form">
                                             <fieldset>
-                                                <input type="text" class="name" id="name" placeholder="Name...">
+                                                <input type="text" name="name" class="name" id="name" placeholder="Name...">
                                             </fieldset> 
                                             <fieldset>
-                                                <input type="email" class="email" id="email" placeholder="Email...">
+                                                <input type="email" name="email" class="email" id="email" placeholder="Email...">
                                             </fieldset> 
                                             <fieldset>
-                                                <input type="text" class="subject" id="subject" placeholder="Subject...">
+                                                <input type="text" name="subject" class="subject" id="subject" placeholder="Subject...">
                                             </fieldset>
                                             <fieldset>
                                                 <textarea name="message" id="message" cols="30" rows="4" placeholder="Message.."></textarea>
                                             </fieldset>
                                             <fieldset>
-                                                <input type="submit" class="button" id="button" value="Send Message">
+                                                <%--<input type="submit" class="button" id="button" value="Send Message">--%>
+                                                <input type="button" class="button" id="button" value="Send Message">
                                             </fieldset>
                                         </form>
                                     </div>
